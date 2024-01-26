@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-box {
+    height: 100px;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 780px;
+}
+
+footer {
+    height: 200px;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrap {
+    width: 1274px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-logo-box {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.info-box {
+    width: 624px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap :12px;
+}
+.company-info,
+.copyright-info,
+.policy-info {
+    color: #FFF;
+    font-size: 14px;
+}
