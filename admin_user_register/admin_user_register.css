@@ -1,0 +1,62 @@
+.add-user-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-user-box {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.add-user-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #053B75;
+    color: white;
+    border-radius: 13px 13px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.add-user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.user-team {
+    width: 1100px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.user-data {
+    width: 1100px;
+    height: 50px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+
+.add-user-btn {
+    margin-top: 130px;
+    width: 304px;
+    height: 60px;
+    background-color: #053B75;
+    color: white;
+    font-size: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="admin_user_register.css" rel="stylesheet">
+    <title>관리자-유저 등록</title>
+</head>
+<body>
+    <div class="add-user-wrapper">
+        <div class="add-user-box">
+            <div class="add-user-header">Employee register</div>
+            <form class="add-user-form">
+                <select class="user-team">
+                    <option selected>사원의 소속팀을 선택해주세요</option>
+                    <option>소속1</option>
+                    <option>소속2</option>
+                </select>
+                <label for="user-num"></label>
+                <input name="user-num" class="user-data" type="text" placeholder="사원번호를 입력해주세요"/>
+                <label for="user-name"></label>
+                <input name="user-name" class="user-data" type="text" placeholder="사원의 이름을 입력해주세요"/>
+                <label for="user-id"></label>
+                <input name="user-id" class="user-data" type="text" placeholder="사용할 아이디를 입력해주세요"/>
+                <label for="user-pw"></label>
+                <input name="user-pw" class="user-data" type="password" placeholder="사용할 비밀번호를 입력해주세요"/>
+                <button class="add-user-btn" type="button">등록하기</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
