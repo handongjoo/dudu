@@ -1,0 +1,102 @@
+.add-project-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-project-box {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.add-project-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #053B75;
+    color: white;
+    border-radius: 13px 13px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.add-project-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.project-option {
+    display: flex;
+    flex-direction: row;
+    width:1100px;
+    height: 50px;
+    gap: 20px;
+}
+
+.today-date {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.project-participants {
+    width: 220px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.project-start-date,
+.project-end-date {
+    width: 300px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.project-registrant {
+    display: flex;
+    width: 1100px;
+    height: 50px;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.project-title {
+    width: 1100px;
+    height: 50px;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.project-content {
+    width: 1100px;
+    height: 200px;
+    resize: none;
+    border: 1px solid black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.add-project-btn {
+    width: 304px;
+    height: 60px;
+    background-color: #053B75;
+    color: white;
+    font-size: 16px;
+    border-radius: 14px;
+}
