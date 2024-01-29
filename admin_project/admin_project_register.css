@@ -48,6 +48,7 @@
     border: 1px solid black;
     padding-left: 10px;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 .project-participants {
@@ -73,6 +74,7 @@
     border: 1px solid black;
     padding-left: 10px;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 .project-title {
@@ -93,6 +95,22 @@
 }
 
 .add-project-btn {
+    width: 304px;
+    height: 60px;
+    background-color: #053B75;
+    color: white;
+    font-size: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.update-delete-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.update-project-btn,
+.delete-project-btn {
     width: 304px;
     height: 60px;
     background-color: #053B75;
